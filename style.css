@@ -413,7 +413,7 @@ article ol a , .drop-down-2 ol a {
 /* section-1****************** */
 .section-1 {
     width: 100%;
-    background: url(/img/apex-section-bg-escape-season-return-user-xl.jpg.adapt.1456w.jpg) no-repeat ;
+    background: url(img/apex-section-bg-escape-season-return-user-xl.jpg.adapt.1456w.jpg) no-repeat ;
     height: 70vh;
     background-size: cover ;
     background-position: 50% 35%;
@@ -461,7 +461,7 @@ article ol a , .drop-down-2 ol a {
 .section-2 {
     width: 100%;
     height:56.88vh;
-    background: url(/img/apex-hero-medium-defiance-season-homepage-7x2-xl.jpg.adapt.crop7x2.1920w.jpg) no-repeat center;
+    background: url(img/apex-hero-medium-defiance-season-homepage-7x2-xl.jpg.adapt.crop7x2.1920w.jpg) no-repeat center;
     background-size: cover;
     padding: 40px 208px 32px 784px;
     display: flex;
@@ -503,7 +503,7 @@ article ol a , .drop-down-2 ol a {
 .section-3 {
     width: 100%;
     background-color: red;
-    background: url(/img/apex-section-3bg-homepage-news-xl.jpg.adapt.1920w.jpg) no-repeat center;
+    background: url(img/apex-section-3bg-homepage-news-xl.jpg.adapt.1920w.jpg) no-repeat center;
     background-size:cover ;
     padding:5em 0 ;
 }
@@ -587,7 +587,7 @@ b {
 /* section-5*********************************** */
 .section-5 {
     width: 100%;
-    background: url(/img/bg-section_5.jpg) no-repeat center;
+    background: url(img/bg-section_5.jpg) no-repeat center;
     background-size: cover;
     padding: 3em 0;
     line-height: 1.5;
@@ -879,7 +879,7 @@ footer {
 }
 @media (max-width:800px) {
     .section-1 {
-        background:url(/img/section-1_bg.jpg);
+        background:url(img/section-1_bg.jpg);
         height: max-content;
         background-size: cover;
         padding:60% 0  0;
@@ -888,7 +888,7 @@ footer {
         padding: 50px 57px;
     }
     .section-2 {
-        background: url(/img/section-2_bg.jpg);
+        background: url(img/section-2_bg.jpg);
         background-size: cover;
         height: max-content;
         padding:60% 50px  30px 50px;
