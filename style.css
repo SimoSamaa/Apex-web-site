@@ -936,3 +936,8 @@ footer {
         width: 85vw;
     }
 }
+@media (max-height:676px) {
+    .section-1 , .section-2 {
+        height: fit-content;
+    }
+}
