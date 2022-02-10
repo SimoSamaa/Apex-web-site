@@ -878,7 +878,7 @@ footer {
 }
 @media (max-width:800px) {
     .section-1 {
-        background:url(https://i.ibb.co/fCZ2t0h/section-1-bg.jpg);
+        background:url(https://i.ibb.co/fCZ2t0h/section-1-bg.jpg) center;
         height: max-content;
         background-size: cover;
         padding:60% 0  0;
@@ -887,7 +887,7 @@ footer {
         padding: 50px 10%;
     }
     .section-2 {
-        background: url(https://i.ibb.co/tXKhBCY/section-2-bg.jpg);
+        background: url(https://i.ibb.co/tXKhBCY/section-2-bg.jpg) center;
         background-size: cover;
         height: max-content;
         padding:60% 10% 30px 10%;
