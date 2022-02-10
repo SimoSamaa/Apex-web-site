@@ -1,5 +1,5 @@
 @font-face {
-    src: url(Font/tt-lakes-neue-w05-regular.otf);
+    src: url(/Font/tt-lakes-neue-w05-regular.otf);
     font-family: tt;
 }
 *::after,*::before ,* {
@@ -63,7 +63,7 @@ nav {
     display: flex;
     align-items: center;
     position: sticky;
-    top: -3px;
+    top: -1px;
     z-index: 11;
 }
 .nav-drop {
@@ -413,7 +413,7 @@ article ol a , .drop-down-2 ol a {
 /* section-1****************** */
 .section-1 {
     width: 100%;
-    background: url(img/apex-section-bg-escape-season-return-user-xl.jpg.adapt.1456w.jpg) no-repeat ;
+    background: url(https://media.contentapi.ea.com/content/dam/apex-legends/common/escape/home-page/apex-section-bg-escape-season-return-user-xl.jpg.adapt.1920w.jpg) no-repeat ;
     height: 70vh;
     background-size: cover ;
     background-position: 50% 35%;
@@ -461,7 +461,7 @@ article ol a , .drop-down-2 ol a {
 .section-2 {
     width: 100%;
     height:56.88vh;
-    background: url(img/apex-hero-medium-defiance-season-homepage-7x2-xl.jpg.adapt.crop7x2.1920w.jpg) no-repeat center;
+    background: url(https://i.ibb.co/y6RJTdH/apex-hero-medium-defiance-season-homepage-7x2-xl-jpg-adapt-crop7x2-1920w.jpg) no-repeat center;
     background-size: cover;
     padding: 40px 208px 32px 784px;
     display: flex;
@@ -503,7 +503,7 @@ article ol a , .drop-down-2 ol a {
 .section-3 {
     width: 100%;
     background-color: red;
-    background: url(img/apex-section-3bg-homepage-news-xl.jpg.adapt.1920w.jpg) no-repeat center;
+    background: url(https://i.ibb.co/rdWd3Vd/apex-section-3bg-homepage-news-xl-jpg-adapt-1920w.jpg) no-repeat center;
     background-size:cover ;
     padding:5em 0 ;
 }
@@ -511,7 +511,6 @@ article ol a , .drop-down-2 ol a {
     color: var(--h);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-size: 35px; */
     font-size: clamp(18,10vw,35px);
     letter-spacing: -2px;
     margin-bottom: 1em;
@@ -553,7 +552,7 @@ article ol a , .drop-down-2 ol a {
 .section-4 {
     width: 100%;
     padding: 5em  0 2em;
-    background: url(img/section-4.jpg) no-repeat center;
+    background: url(https://i.ibb.co/fHyFj9F/section-4.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
     display: flex;
@@ -587,7 +586,7 @@ b {
 /* section-5*********************************** */
 .section-5 {
     width: 100%;
-    background: url(img/bg-section_5.jpg) no-repeat center;
+    background: url(https://i.ibb.co/JdBHkBf/bg-section-5.jpg) no-repeat center;
     background-size: cover;
     padding: 3em 0;
     line-height: 1.5;
@@ -754,13 +753,13 @@ input[type="submit"] {
     border: 0;
     outline: 0;
     color: var(--wity);
-    font-size: 18px;
+    font-size: clamp(10px,5vw,18px);
     font-family: tt;
 }
 /* section-7************************************************ */
 .section-7 {
     width: 100%;
-    background:url(img/section-7.jpg) no-repeat center/cover;
+    background:url(https://i.ibb.co/9nkpfTk/section-7.jpg) no-repeat center/cover;
     padding: 3em 0;
 }
 .container-sec_7 {
@@ -847,7 +846,7 @@ footer {
         background-position: center;
     }
     .content-text {
-        width: max-content;
+        width: 100%;
     }
     .section-2 {
         height: 74.35vh;
@@ -879,19 +878,19 @@ footer {
 }
 @media (max-width:800px) {
     .section-1 {
-        background:url(img/section-1_bg.jpg);
+        background:url(https://i.ibb.co/fCZ2t0h/section-1-bg.jpg);
         height: max-content;
         background-size: cover;
         padding:60% 0  0;
     }
     .content-text {
-        padding: 50px 57px;
+        padding: 50px 10%;
     }
     .section-2 {
-        background: url(img/section-2_bg.jpg);
+        background: url(https://i.ibb.co/tXKhBCY/section-2-bg.jpg);
         background-size: cover;
         height: max-content;
-        padding:60% 50px  30px 50px;
+        padding:60% 10% 30px 10%;
         justify-content: center;
     }
     .flex-container, .container-sec_6 {
@@ -922,6 +921,7 @@ footer {
     }
     .btn-sec ,.btn {
         width: 100% !important;
+        font-size: clamp(10px,5vw,18px);
     }
     .apex-patrorm_img {
         width: 100%;
@@ -934,6 +934,18 @@ footer {
     }
     .tuggle {
         width: 85vw;
+    }
+    .apex-hero {
+        width: 100%;
+    }
+    .apex-hero img {
+        width: 100%;
+    }
+    .grid-container ,.grid-container-2 {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sociam-media_footer ul {
+        flex-wrap: wrap;
     }
 }
 @media (max-height:676px) {
