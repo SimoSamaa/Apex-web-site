@@ -675,8 +675,7 @@ input[type="date"]:focus , input[type="text"]:hover, select:hover , select:focus
     left: 1.5em;
     cursor:auto;
 }
-input[type="email"]:focus + label , input[type="email"]:not(:placeholder-shown) + label,
-input[type="date"]:focus + label , input[type="date"]:not(:placeholder-shown) + label {
+input:focus + label , input:not(:placeholder-shown) + label {
     top: 5px;
     font-size: 13px;
     color: #C5C5C5;
@@ -744,6 +743,7 @@ input[type="email"]::placeholder , input[type="text"]::placeholder {
     transform: translate(-50%,-50%);
     font-size: 12px;
     display: none;
+    color: var(--h);
 }
 #che:checked ~ label::after {
     display: block;
@@ -878,7 +878,7 @@ footer {
 }
 @media (max-width:800px) {
     .section-1 {
-        background:url(https://i.ibb.co/fCZ2t0h/section-1-bg.jpg) center;
+        background:url(https://i.ibb.co/fCZ2t0h/section-1-bg.jpg)center top;
         height: max-content;
         background-size: cover;
         padding:60% 0  0;
@@ -887,7 +887,7 @@ footer {
         padding: 50px 10%;
     }
     .section-2 {
-        background: url(https://i.ibb.co/tXKhBCY/section-2-bg.jpg) center;
+        background: url(https://i.ibb.co/tXKhBCY/section-2-bg.jpg) center top;
         background-size: cover;
         height: max-content;
         padding:60% 10% 30px 10%;
